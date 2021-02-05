@@ -45,7 +45,7 @@
     .dropdown-menu#{$infix}-start {
       --bs-position: start;
 
-      [data-bs-display="static"] ~ & {
+      [data-bs-popper] ~ & {
         right: auto #{"/* rtl:ignore */"};
         left: 0 #{"/* rtl:ignore */"};
       }
@@ -54,7 +54,7 @@
     .dropdown-menu#{$infix}-end {
       --bs-position: end;
 
-      [data-bs-display="static"] ~ & {
+      [data-bs-popper] ~ & {
         right: 0 #{"/* rtl:ignore */"};
         left: auto #{"/* rtl:ignore */"};
       }
